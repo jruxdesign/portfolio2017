@@ -1,2 +1,2 @@
-# jimjjordan.com
-Jim Jordan's personal website 
+# jennareeddesign.com
+Jenna Reed's personal website 
