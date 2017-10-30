@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "MetricSemibold";
+  src: url("font/MetricWeb-Semibold.eot"), url("font/MetricWeb-Semibold.woff") format("woff"), url("font/MetricWeb-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "MetricRegular";
+  src: url("font/MetricWeb-Regular.eot"), url("font/MetricWeb-Regular.woff") format("woff"), url("font/MetricWeb-Regular.woff2") format("woff2");
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+::selection {
+  background: #f8ccff;
+}
+
+.ct {
+  text-align: left;
+  padding-left: 10vw;
+  margin-top: -10vh;
+  max-width: 90%;
+  animation: fadeIn .3s ease;
+}
+
+.text {
+  font-family: 'Source Sans Pro', sans-serif;
+    color: #2a2a33;
+}
+
+.text--header {
+font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.04em;
+    display: block;
+    font-stretch: none;
+    margin-top: 95px;
+}
+
+.subheader {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.04em;
+  font-style:bold;
+
+}
+
+.reachout {
+    padding-top:15px;
+}
+
+.illustration {
+    margin-left:63px;
+    background-image: url(images/day3bloodvile.svg);
+    background-repeat:no-repeat;
+
+}
+
+.text--paragraph {
+  font-family: "Lora", sans-serif;
+  font-size: 2.1em;
+  color: #4b4b56;
+  max-width: 33.7em;
+  display: block;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-top:-30px;
+}
+
+a {
+  color: #607bff;
+  font-style: italic;
+  transition: color .3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #d758e8;
+}
+
+b {
+  font-style: italic;
+}
+
+@media screen and (min-width: 320px) and (max-width: 630px) {
+  body {
+    font-size: 7px;
+  }
+  .text--header {
+    font-size: 30px;
+    letter-spacing: -0.04em;
+  }
+  .text--paragraph {
+    font-size: 2.5em;
+    max-width: 22em;
+  }
+  .grid__item {
+    width: calc(100% - 2em);
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1920px) {
+  
+
+  .illustration  {
+    width: 60%;
+    height:60%;
+    background-image: url(images/day3bloodvile.svg);
+    background-repeat:no-repeat;
+   
+  }
+}
+
+
+  
+
+@media screen and (max-width: 480px) {
+  
+  .illustration  {
+   
+    display:none;
+    margin-left:63px;
+    background-image: url(images/day3bloodvile.svg);
+    background-repeat:no-repeat;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 680px) {
+  body {
+    font-size: 8px;
+  }
+
+  .illustration  {
+    display:none;
+    background-image: url(images/day3bloodvile.svg);
+    background-repeat:no-repeat;
+   
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 4000px) {
+  body {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px)  {
+  body {
+    font-size: 16px;
+  }
+  .text--header {
+    font-size: 5em;
+  }
+  .text--paragraph {
+    /*font-size: 3.25em;*/
+  }
+  .avatar {
+    position: static;
+    width: 16em;
+    height: 16em;
+    border-radius: 16em;
+    margin-top: 4em;
+  }
+}
+
+
