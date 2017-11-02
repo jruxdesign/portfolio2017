@@ -150,6 +150,7 @@ b {
   .text--header {
     font-size: 30px;
     letter-spacing: -0.04em;
+    line-height: 32px;
   }
   .text--paragraph {
     font-size: 2.5em;
@@ -161,24 +162,24 @@ b {
 }
 
 @media screen and (min-width: 700px) and (max-width: 1920px) {
-  
+
 
   .illustration  {
     width: 60%;
     height:60%;
     background-image: url(images/day3bloodvile.svg);
     background-repeat:no-repeat;
-   
+
   }
 }
 
 
-  
+
 
 @media screen and (max-width: 480px) {
-  
+
   .illustration  {
-   
+
     display:none;
     margin-left:63px;
     background-image: url(images/day3bloodvile.svg);
@@ -196,7 +197,7 @@ b {
     display:none;
     background-image: url(images/day3bloodvile.svg);
     background-repeat:no-repeat;
-   
+
   }
 }
 
@@ -224,5 +225,3 @@ b {
     margin-top: 4em;
   }
 }
-
-
