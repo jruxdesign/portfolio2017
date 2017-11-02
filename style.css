@@ -91,7 +91,6 @@ body {
 .text--header {
 font-size: 30px;
     line-height: 38px;
-    letter-spacing: -0.04em;
     display: block;
     font-stretch: none;
     margin-top: 95px;
@@ -151,6 +150,7 @@ b {
     font-size: 30px;
     letter-spacing: -0.04em;
     line-height: 32px;
+
   }
   .text--paragraph {
     font-size: 2.5em;
