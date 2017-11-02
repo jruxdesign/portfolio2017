@@ -91,7 +91,7 @@ body {
 .text--header {
 font-size: 30px;
     line-height: 38px;
-    display: block;
+    display: inline-block;
     font-stretch: none;
     margin-top: 95px;
 }
